@@ -1,0 +1,39 @@
+body {
+    font-family: Courier New, Courier, monospace;
+    background-color: pink;
+    font-size: 2em;
+    margin: 2em;
+}
+
+div.um {
+    position: absolute;
+    bottom: 4em;
+    right: 5em;
+}
+
+div.dois {
+    position: static;
+}
+
+div.tres {
+    position: relative;
+    left: 2em;
+    top: 3em;
+}
+
+div.credit {
+    position: absolute;
+    bottom: 1em;
+    right: 3px;
+    font-size: 15px;
+}
+
+div.mover {
+    border-radius: 5px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+}
